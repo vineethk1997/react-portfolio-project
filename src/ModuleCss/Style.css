@@ -30,7 +30,7 @@ nav{
     display: none;
 }
 .content_home{
-
+    display: flex;
 }
 .footer{
     position: fixed;

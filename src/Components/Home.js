@@ -7,12 +7,14 @@ export default function Home() {
   return (
     <>
       <div className='content_home'> 
+      
       <div>
       To secure a position in a dynamic and progressive organization 
       that draws on my education, knowledge, experience, skills and flexibility
-      to adapt to company's needs and work towards the constitutional growth of the organization.
+      to adapt to company's needs and work towards the constitutional growth of the 
+      organization.
       </div>
-      </div>
+      
 
       <section>
         <Projects/>
@@ -23,6 +25,7 @@ export default function Home() {
         <Contact/>
       </section>
 
+      </div>
       <div className='footer'>
 
       </div>

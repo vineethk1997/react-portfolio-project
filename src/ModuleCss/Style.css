@@ -1,0 +1,41 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(7, 123, 127);
+    min-height: 7vh;
+    
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.3rem;
+    text-decoration: none;
+    width: 75%;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    padding: 0.8em;
+}
+.text{
+    color: white;
+    text-decoration: none;
+    padding: 0.3em;
+    margin-right: 12em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3em;
+}
+.icon{
+    display: none;
+}
+.content_home{
+
+}
+.footer{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(0, 40, 0);
+    min-height: 7vh;
+    bottom: 0%;
+}

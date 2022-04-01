@@ -4,15 +4,15 @@ import "../ModuleCss/Style.css";
 export default function Contact() {
   return (
     <>
-    <div>
-      <div>
+    <div className='form_background'>
+      <div className='form'>
         <form>
-          <label>Name</label>
+          <label style={{color:"darkolivegreen"}}>Name</label>
           <input type="text" name='name' value="" onChange=""/> <br/>
-          <label>email</label>
+          <label style={{color:"darkolivegreen"}}>email</label>
           <input type="text" name='email' value="" onChange=""/>  <br/>
-          <label>Message</label>
-          <textarea rows="5" cols="15"/>
+          <label style={{color:"darkolivegreen"}}>Message</label>
+          <textarea rows="5" cols="15"/> <br/>
        
 
           <button className='button'>Submit</button>

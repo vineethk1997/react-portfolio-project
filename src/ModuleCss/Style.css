@@ -39,3 +39,55 @@ nav{
     min-height: 7vh;
     bottom: 0%;
 }
+.container{
+    background-color: skyblue;
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: 0.6fr 2.4fr 2fr;
+    height: 23vh;
+    overflow: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.container_information{
+    color: red;
+}
+.content_home{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    
+    
+
+}
+.content_one{
+    background-color: darkslategray;
+   
+}
+.content_two{
+    background-color: antiquewhite;
+    color: black;
+    height: 100%;
+}
+.content_three{
+     background-color: darkolivegreen;
+     
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border: 2px solid salmon;
+    margin-top: 15vh;
+    height: 35vh;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.button{
+    margin-top: 0.3em;
+    color: teal;
+    background-color: bisque;
+    border-radius: 3px;
+    
+
+}

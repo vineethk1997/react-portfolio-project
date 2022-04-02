@@ -61,6 +61,13 @@ export default function Projects() {
    
     <div className='footer'>
 
+    <div className='form_background'>
+      <div className='form'>
+        CONTACT: vineethkapala@gmail.com
+        
+      </div>
+    </div>
+
     </div>
     </>
   )

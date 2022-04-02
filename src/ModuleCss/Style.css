@@ -52,25 +52,59 @@ nav{
 .container_information{
     color: red;
 }
-.content_home{
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    
-    
 
+.section1{
+	background-color:#11181e;
+	width:50%;
+	float:left;
+	height:100vh;
+	border-right: 1vw solid #F5E5D6; 
+    box-sizing: border-box;
+    margin:0;
+    padding:0;	
 }
-.content_one{
-    background-color: darkslategray;
-   
+.section_root{
+    
+    margin-top: 15px;
+    text-align: center;
 }
-.content_two{
-    background-color: antiquewhite;
-    color: black;
-    height: 100%;
+.section_root1{
+    font-size: 24px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.content_three{
-     background-color: darkolivegreen;
-     
+.section_root2{
+    font-size: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 18px;
+}
+.section_root3{
+    font-size: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section2{
+	background-color:coral;
+	width:50%;
+	float:left;
+	height:100vh;
+	margin:0;
+	padding:0;
+  box-sizing: border-box;
+}
+.section2_root{
+    display: flex;
+    justify-content: space-around;
+}
+.section2_root1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.section2_root2{
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
 }
 
 .form{
@@ -78,10 +112,11 @@ nav{
     align-items: center;
     justify-content:center;
     border: 2px solid salmon;
-    margin-top: 15vh;
-    height: 35vh;
+    margin-top: 5vh;
+    height: 5vh;
     margin-left: 25%;
     margin-right: 25%;
+    background-color: white;
 }
 .button{
     margin-top: 0.3em;

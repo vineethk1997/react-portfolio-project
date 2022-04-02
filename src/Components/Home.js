@@ -18,7 +18,7 @@ to adapt to company's needs and work towards the constitutional growth of the or
 
       </div>
       <div className='section2'>
-        <div className='section2_root'>
+        <div className='section2_root' style={{margin:"24px"}}>
           <div className='section2_root1'>
             WORK EXPERIENCE-
           </div>
@@ -43,9 +43,9 @@ to adapt to company's needs and work towards the constitutional growth of the or
             </div>
 
             <div style={{color:"white", fontSize:"18px", fontFamily:"sans-serif"}}>
-            BACHELOR OF TECHNOLOGY <br/>
-            SHRI SHANKARACHARYA GROUP OF INSTITUTIONS BHILAI(2016-2020) <br/>
-            BRANCH- ELECTRONICS AND TELECOMMUNICATIONS(8.08 GPA) 
+           <span style={{color:"red"}}> BACHELOR OF TECHNOLOGY </span><br/>
+           <span style={{color:"brown"}}> SHRI SHANKARACHARYA GROUP OF INSTITUTIONS BHILAI(2016-2020) <br/>
+            BRANCH- ELECTRONICS AND TELECOMMUNICATIONS(8.08 GPA) </span>
             </div>
             <br/>
             <br/>
